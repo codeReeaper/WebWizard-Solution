@@ -1,0 +1,140 @@
+body {
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+                /* CABEÇALHO*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #7fffd4;
+    transition: 0.4s all;
+}
+
+#inscreva-se-btn {
+    border: 2px solid #7fffd4;
+    padding: 10px;
+    border-radius: 5rem;
+}
+
+#inscreva-se-btn:hover {
+    background-color: #7fffd4;
+    color: #fff;
+}
+
+h1 {
+    font-weight: 200;
+}
+                /* TEXTOS DO MAIN*/
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span {
+    color: #7fffd4;
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+em {
+    color: #7fffd4;
+}
+                    /* IMAGEM*/
+img {
+    width: 680px;
+}
+
+                    /* FORMULARIO*/
+form {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: #7fffd4;
+    color: #000000;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover {
+    background-color: #2fffba;
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 5rem;
+    border: none;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    max-width: 25%;
+    border-radius: 50%;
+}
+
+.text h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.dev {
+    font-size: 1.0rem;
+}
+
+.strong {
+    color: #00ffa6;
+}
