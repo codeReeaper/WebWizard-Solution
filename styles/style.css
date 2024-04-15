@@ -9,13 +9,14 @@ body {
 }
                 /* CABEÇALHO*/
 header {
+    flex-flow: row nowrap;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
+} 
 
 #title {
+    display: block;
     flex-direction: column;
     line-height: 10px;
 }
