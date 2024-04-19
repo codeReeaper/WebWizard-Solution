@@ -21,6 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-items: center;
 }
 
 @media screen and (max-width: 760px) {
@@ -128,65 +129,4 @@ main #text-div p em {
     #img-div img {
         max-width: 320px;
     }
-}
-
-/* FORMULARIO*/
-form {
-    display: flex;
-    flex-direction: column;
-    width: 97%;
-}
-
-form [type="submit"] {
-    height: 50px;
-    width: 50%;
-    background-color: #7fffd4;
-    color: #000000;
-    font-weight: bold;
-}
-
-form [type="submit"]:hover {
-    background-color: #2fffba;
-    cursor: pointer;
-}
-
-input {
-    margin-top: 20px;
-    height: 20px;
-    padding: 15px;
-    border-radius: 5rem;
-    border: none;
-    font-size: 15px;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.text {
-    display: flex;
-    flex-direction: column;
-    margin-right: 20px;
-}
-
-.image {
-    display: flex;
-    flex-direction: row;
-    max-width: 7.5rem;
-    border-radius: 50%;
-}
-
-.text h3 {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-}
-
-.dev {
-    font-size: 1.0rem;
-}
-
-.strong {
-    color: #00ffa6;
 }
