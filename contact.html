@@ -1,67 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/media.css">
     <title>Contate-nos</title>
 </head>
-
 <body>
-    <main>
-        <div id="main">
-            <div id="main-text">
-                <h2><span>WebWizards</span></h2>
-                <h2>Solutions</h2>
-                <p>
-                    "Todo grande desenvolvedor que você conhece chegou
-                    lá resolvendo problemas para os quais não estavam
-                    qualificados até realmente fazê-lo."</br>
-                    <em>~Patrick McKenzie</em>
-                </p>
-                <p>
-                    "Software é uma ótima combinação
-                    entre arte e engenharia."</br>
-                    <em>~Bill Gates</em>
-                </p>
-                <p>
-                    "Um especialista é alguém que sabe cada vez
-                    mais sobre cada vez menos, até saber tudo sobre nada"</br>
-                    <em>~Anonymous</em>
-                </p>
-            </div>
-            <div id="img-div">
-                <img src="./components/images/contact.svg" alt="wordpress">
-            </div>
-        </div>
-        <div id="main-form">
-            <div id="form">
-                <form action="agradecimento.html">
-                    <input type="text" placeholder="Nome completo" required>
-                    <input type="email" placeholder="Seu melhor e-mail" required>
-                    <input type="tel" placeholder="Seu Whatsapp" required>
-                    <input class="input-value" type="number" placeholder="Orçamento previsto" min="0" step="100.0"
-                        required>
-                    <input type="text" placeholder="Prazo de entrega estimado" required>
-                    <select name="type-project" id="type-project" placeholder="Selecione o tipo de projeto" required>
-                        <option value="">Selecione o Tipo de Projeto</option>
-                        <option value="dev-site">Desenvolvimento de Site</option>
-                        <option value="design">Design Gráfico</option>
-                        <option value="dev-app">Desenvolvimento de Aplicativo</option>
-                    </select>
-                    <label for="msg">Deixe aqui sua mensagem:</label>
-                    <textarea name="msg" rows="4"></textarea>
-                    <input type="submit" value="Enviar >">
-                </form>
-            </div>
-            <div id="form-about">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam tenetur vel corrupti quod ab. Sapiente officia, eum ex iusto possimus temporibus pariatur, enim eos quo aliquid, nobis tenetur est deserunt!</div>
-        </div>
-    </main>
-    <script src="./scripts/scripts.js" defer></script>
-</body>
 
+    <header>
+        <div id="title">
+            <h1>WebWizards</h1>
+            <h1>Solutions</h1>
+        </div>
+
+        <ul>
+            <a href="index.html"><li>Inicio</li></a>
+            <a href="service.html"><li>Serviços</li></a>
+            <a href="about.html"><li>Sobre</li></a>
+            <!-- <a href="#"><li>Contato</li></a> -->
+            <a href="#" id="inscreva-se-btn"><li>Entre em Contato</li></a>
+        </ul>
+    </header>
+
+    <main>
+        <aside>
+            <h2><span>WebWizards</span></h2>
+            <h2>Solutions</h2>
+            <p>
+                "Todo grande desenvolvedor que você conhece chegou
+                lá resolvendo problemas para os quais não estavam
+                qualificados até realmente fazê-lo."</br>
+                <em>~Patrick McKenzie</em>
+            </p>
+            <p>
+                "Software é uma ótima combinação
+                entre arte e engenharia."</br>
+                <em>~Bill Gates</em>
+            </p>
+            <p>
+                "Um especialista é alguém que sabe cada vez
+                mais sobre cada vez menos, até saber tudo sobre nada"</br>
+                <em>~Anonymous</em>
+            </p>
+            
+            <form action="agradecimento.html">
+                <input type="text" placeholder="Nome completo" required>
+                <input type="email" placeholder="Seu melhor e-mail" required>
+                <input type="tel" placeholder="Seu Whatsapp" required>
+                <input class="input-value" type="number" placeholder="Orçamento previsto" min="0" step="100.0" required>
+                <input type="text" placeholder="Prazo de entrega estimado" required>
+                <select name="type-project" id="type-project" placeholder="Selecione o tipo de projeto" required>
+                    <option value="">Selecione o Tipo de Projeto</option>
+                    <option value="dev-site">Desenvolvimento de Site</option>
+                    <option value="design">Design Gráfico</option>
+                    <option value="dev-app">Desenvolvimento de Aplicativo</option>
+                </select>
+                <label for="msg">Deixe aqui sua mensagem:</label>
+                <textarea name="msg" rows="4"></textarea>
+                <input type="submit" value="Enviar >">
+            </form>
+        </aside>
+
+        <article>
+            <img src="./components/images/contact.svg" alt="wordpress">
+        </article>
+    </main>
+    
+
+    <script src="scripts/contato.js"></script>
+</body>
 </html>
+
+
+
+
+

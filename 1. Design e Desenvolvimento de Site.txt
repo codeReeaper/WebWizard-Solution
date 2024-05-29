@@ -1,0 +1,32 @@
+1. Design e Desenvolvimento de Sites: Um desenvolvedor web pode criar sites do zero ou trabalhar com designs fornecidos por designers. Isso inclui a codificação HTML, CSS e JavaScript para criar layouts visualmente atraentes e funcionais.
+Preço: R$ 3.000,00
+
+
+2. Integração de Sistemas: Os desenvolvedores web podem integrar sistemas diferentes, como bancos de dados, APIs e serviços de terceiros. Isso permite que os sites se comuniquem com outras plataformas e serviços.
+Preço: R$ 1.500,00
+
+
+3. Manutenção e Atualização: Manter um site funcionando corretamente é essencial. Um desenvolvedor web pode realizar tarefas de manutenção, como corrigir erros, atualizar conteúdo e otimizar o desempenho.
+Preço: R$ 800,00
+
+
+4. Desenvolvimento de Aplicativos Web: Além de sites, os desenvolvedores web também podem criar aplicativos web interativos. Isso envolve o uso de frameworks e linguagens como React, Angular ou Vue.js.
+Preço: R$ 2.500,00
+
+
+5. SEO (Otimização para Mecanismos de Busca): Os desenvolvedores web podem otimizar sites para melhorar sua visibilidade nos mecanismos de busca. Isso inclui otimização de palavras-chave, velocidade do site e estrutura de links.
+Preço: R$ 600,00
+
+
+6. E-commerce e Lojas Online: Desenvolvedores web podem criar lojas online, configurar sistemas de pagamento, gerenciar inventário e garantir a segurança das transações.
+Preço: R$ 1.200,00
+
+
+7. Blogs e Portais: Desenvolvedores web podem criar blogs, portais de notícias ou outros tipos de sites de conteúdo.
+Preço: R$ 400,00
+
+
+8. Aplicativos Mobile: Alguns desenvolvedores web também têm conhecimento em desenvolvimento de aplicativos móveis, usando tecnologias como React Native ou Flutter. 
+Preço: R$ 2.800,00
+
+

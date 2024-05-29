@@ -48,12 +48,13 @@ a:hover {
 h1 {
     font-weight: 200;
 }
-
-article {
-    padding-left: 1rem;
+                /* TEXTOS DO MAIN*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
 }
 
-                /* TEXTOS DO MAIN*/
 main {
     display: flex;
     flex-direction: row;
@@ -63,16 +64,6 @@ h2 {
     font-size: 56px;
     line-height: 10px;
     font-family: poppinsmedium;
-    color: #f2f2f2
-}
-
-
-h3 {
-    font-size: 1.5rem;
-}
-
-span {
-    color: #7fffd4;
 }
 
 p {
@@ -86,42 +77,13 @@ em {
 }
                     /* IMAGEM*/
 img {
-    width: 680px;
-}
-
-                    /* FORMULARIO*/
-
-.container {
-    display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    justify-content: center;
+    margin: auto;
+    width: 900px;
 }
 
-.text {
-    display: flex;
-    flex-direction: column;
-    margin-right: 20px;
-    
+span {
+    color: #7fffd4;
 }
 
-.image {
-    display: flex;
-    flex-direction: row;
-    max-width: 7.5rem;
-    border-radius: 50%;
-    padding-left: 0.5rem;
-}
-
-.text h3 {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-}
-
-.dev {
-    font-size: 1.0rem;
-}
-
-.strong {
-    color: #00ffa6;
-    padding-left: 5rem;
-}
