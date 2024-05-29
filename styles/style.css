@@ -1,144 +1,132 @@
+:root {
+    --btn-color-primary: #7fffd4;
+    --text-strong-green: #00ffa6;
+    --white: #fff;
+    --background-color: #222222;
+}
+
 body {
-    background-color: rgb(34, 34, 34);
-    color: #fff;
+    background-color: var(--background-color);
+    color: var(--white);
     font-family: poppinsregular;
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
 
 }
-                /* CABEÇALHO*/
+
+/* CABEÇALHO*/
 header {
+    flex-flow: row wrap;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+@media screen and (max-width: 760px) {
+    header {
+        flex-flow: column;
+        align-items: center;
+        align-content: center;
+    }
+    header ul{
+            text-align: center;
+    }
+}
+
+header #title {
+    display: block;
+    flex-direction: column;
+    line-height: 10px;
+    justify-content: center;
     align-items: center;
 }
 
-#title {
-    flex-direction: column;
-    line-height: 10px;
-}
-
-li {
+header li {
     display: inline-block;
     margin: 20px;
 }
 
-a {
-    color: #fff;
+header li a {
+    color: var(--white);
+    text-decoration: none;
 }
 
 a:hover {
-    color: #7fffd4;
+    color: var(--btn-color-primary);
     transition: 0.4s all;
 }
 
 #inscreva-se-btn {
-    border: 2px solid #7fffd4;
+    border: 2px solid var(--btn-color-primary);
     padding: 10px;
     border-radius: 5rem;
 }
 
 #inscreva-se-btn:hover {
-    background-color: #7fffd4;
-    color: #fff;
+    background-color: var(--btn-color-primary);
+    color: var(--background-color);
 }
 
-h1 {
-    font-weight: 200;
+header h1 {
+    font-weight: 300;
 }
-                /* TEXTOS DO MAIN*/
-main {
+
+/* TEXTOS DO MAIN*/
+main #main {
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 3rem;
+    justify-content: space-around;
+    align-items: center;
 }
-h2 {
-    font-size: 56px;
+
+@media screen and (max-width: 760px) {
+    main #main {
+        flex-direction: column-reverse;
+    }
+}
+
+main #text-div h2 {
+    font-size: 3rem;
     line-height: 10px;
     font-family: poppinsmedium;
 }
 
-#logo {
-    font-size: 3rem;
+main #text-div span {
+    color: var(--btn-color-primary);
 }
 
-span {
-    color: #7fffd4;
-}
-
-p {
+main #text-div p {
     line-height: 20px;
     max-width: 500px;
     font-family: poppinslight;
 }
 
-em {
-    color: #7fffd4;
-}
-                    /* IMAGEM*/
-img {
-    width: 680px;
+main #text-div p em {
+    color: var(--btn-color-primary);
 }
 
-                    /* FORMULARIO*/
-form {
-    display: flex;
-    flex-direction: column;
-    width: 97%;
-}
-
-form [type="submit"] {
-    height: 50px;
-    width: 50%;
-    background-color: #7fffd4;
-    color: #000000;
-    font-weight: bold;
-}
-
-form [type="submit"]:hover {
-    background-color: #2fffba;
-    cursor: pointer;
-}
-
-input {
-    margin-top: 20px;
-    height: 20px;
-    padding: 15px;
-    border-radius: 5rem;
-    border: none;
-    font-size: 15px;
-}
-
-.container {
-    display: flex;
+/* IMAGEM*/
+#img-div {
     align-items: center;
-    margin-bottom: 20px;
+    justify-content: flex-start;
 }
 
-.text {
-    display: flex;
-    flex-direction: column;
-    margin-right: 20px;
+#img-div img {
+    max-width: 680px;
+    padding: 10px;
 }
 
-.image {
-    display: flex;
-    flex-direction: row;
-    max-width: 7.5rem;
-    border-radius: 50%;
+@media screen and (max-width: 760px) {
+    #img-div img {
+        max-width: 460px;
+    }
 }
 
-.text h3 {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-}
-
-.dev {
-    font-size: 1.0rem;
-}
-
-.strong {
-    color: #00ffa6;
+@media screen and (max-width: 500px) {
+    #img-div img {
+        max-width: 320px;
+    }
 }

@@ -1,74 +1,17 @@
-body {
-    background-color: rgb(34, 34, 34);
-    color: #fff;
-    font-family: poppinsregular;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 15px;
-
-}
-                /* CABEÇALHO*/
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#title {
-    flex-direction: column;
-    line-height: 10px;
-}
-
-li {
-    display: inline-block;
-    margin: 20px;
-}
-
-a {
-    color: #fff;
-}
-
-a:hover {
-    color: #7fffd4;
-    transition: 0.4s all;
-}
-
-#inscreva-se-btn {
-    border: 2px solid #7fffd4;
+main #main #about-text {
     padding: 10px;
-    border-radius: 5rem;
 }
 
-#inscreva-se-btn:hover {
-    background-color: #7fffd4;
-    color: #fff;
-}
-
-h1 {
-    font-weight: 200;
-}
-
-article {
-    padding-left: 1rem;
-}
-
-                /* TEXTOS DO MAIN*/
-main {
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-}
 h2 {
     font-size: 56px;
     line-height: 10px;
-    font-family: poppinsmedium;
+    font-family: poppinsMedium;
     color: #f2f2f2
 }
 
-
 h3 {
     font-size: 1.5rem;
+    
 }
 
 span {
@@ -78,50 +21,69 @@ span {
 p {
     line-height: 20px;
     max-width: 500px;
-    font-family: poppinslight;
+    font-family: poppinsLight;
 }
 
 em {
     color: #7fffd4;
 }
-                    /* IMAGEM*/
-img {
-    width: 680px;
-}
 
-                    /* FORMULARIO*/
-
-.container {
+main #team-div {
     display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+    flex-direction: row;
+}
+main #team-div div {
+    padding: 10px;
 }
 
-.text {
+@media screen and (max-width: 760px) {
+    main #team-div {
+        flex-direction: column;
+    }
+}
+                    /* DEVS*/
+#container {
     display: flex;
     flex-direction: column;
-    margin-right: 20px;
-    
+    align-items: center;
 }
 
-.image {
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 0px;
+    justify-content: space-around;
+}
+
+
+#image {
     display: flex;
     flex-direction: row;
     max-width: 7.5rem;
     border-radius: 50%;
     padding-left: 0.5rem;
+    margin: 20px;
 }
 
-.text h3 {
+#text h3 {
     font-size: 1.5rem;
-    margin-top: 1rem;
+    align-items: center;
+    
 }
 
-.dev {
+#dev {
     font-size: 1.0rem;
 }
 
-.strong {
+#strong {
     color: #00ffa6;
     padding-left: 5rem;
+}
+
+#devs-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
