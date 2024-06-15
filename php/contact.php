@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "@Qel142536";
+$password = "";
 $dbname = "webwwizards_solution";
 
 // Criar conexão
